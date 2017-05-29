@@ -9,6 +9,6 @@ DATA: {"url": url}
 RETURN: {"guid": guid} or error {"message": message}
 ```
 ```
-GET: /api/<guid>
+GET: /api/get_status/<guid>
 RETURN: {"guid": guid, "state": state, 'info': info}
 ```
